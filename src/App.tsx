@@ -1,8 +1,14 @@
+import Header from './components/Header/Header';
+import { Main } from './components/Main/Main';
+
 function App() {
   return (
-    <>
-      <h2>App</h2>
-    </>
+    <div>
+      <Header />
+      <div className='container'>
+        <Main />
+      </div>
+    </div>
   );
 }
 
