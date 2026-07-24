@@ -1,14 +1,10 @@
-import { formatDate } from '../FormatDate';
+import { formatDate } from '../formatDate';
 
 export const Header = () => {
   return (
     <div>
       <h2>NEWS</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, officia.
-        Facilis accus
-      </p>
-      {formatDate(new Date())}
+      <p>{formatDate(new Date())}</p>
     </div>
   );
 };
