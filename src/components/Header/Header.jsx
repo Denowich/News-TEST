@@ -1,10 +1,11 @@
-import { formatDate } from '../formatDate';
+import styles from './styles.module.css';
+import { formatDate } from '../helpers/formatDate';
 
 export const Header = () => {
   return (
-    <div>
-      <h2>NEWS</h2>
-      <p>{formatDate(new Date())}</p>
-    </div>
+    <header className={styles.header}>
+      <h2 className={styles.title}>NEWS</h2>
+      <p className={styles.date}>{formatDate(new Date())}</p>
+    </header>
   );
 };
