@@ -1,6 +1,6 @@
 export const formatDate = (date) => {
   const options = {
-    weakday: 'long',
+    weekday: 'long',
     year: 'numeric',
     month: 'long',
     day: 'numeric',

@@ -4,10 +4,11 @@
   gap: 12px;
   border-bottom: 2px solid #f0f2f4;
   padding: 12px 24px;
+  width: 100%;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 28px;
 }
 .date {
   font-size: 16px;
