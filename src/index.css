@@ -5,9 +5,10 @@
   list-style: none;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+
+  background: rgb(219, 220, 220);
 }
 
 .container {
-  padding: 24px;
   min-height: 100vh;
 }
