@@ -20,7 +20,7 @@ export const Main = () => {
 
   return (
     <main className={styles.main}>
-      <h2>Main</h2>
+      {/* <h2>Main</h2> */}
       <NewsBanner item={news[0]} />
     </main>
   );
