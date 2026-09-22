@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { NewsBanner } from '../../NewsBanner/NewsBanner';
 import styles from './styles.module.css';
 import { getNews } from '../../../api/apiNews';
+import { NewsList } from '../../NewsList/NewsList';
 
 export const Main = () => {
   const [news, setNews] = useState([]);
@@ -21,6 +22,7 @@ export const Main = () => {
   return (
     <main className={styles.main}>
       <NewsBanner item={news[0]} />
+      <NewsList news={news} />
     </main>
   );
 };
